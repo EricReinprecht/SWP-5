@@ -13,7 +13,7 @@ public class Main {
         ll.add(5);
         ll.add(6);
 
-        System.out.println("hello");
+        System.out.println(ll.get(1));
 
 
 

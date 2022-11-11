@@ -28,7 +28,18 @@ public class LinkedList implements HTLList {
 
     @Override
     public int get(int index) {
-        return -1;
+        Node actual = root;
+        int counter = 0;
+
+        while(counter<index){
+            actual = actual.getNext();
+            counter++;
+        }
+
+
+
+
+        return actual.getValue();
 
     }
 
